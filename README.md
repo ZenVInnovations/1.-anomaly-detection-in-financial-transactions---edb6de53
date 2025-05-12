@@ -75,6 +75,7 @@ Deployment (Streamlit Cloud)
 git clone https://github.com/your-username/anomaly-detection
 cd anomaly-detection-financial-transactions
 pip install -r requirements.txt
+---
 
 ### 🚀 Usage
 bash
