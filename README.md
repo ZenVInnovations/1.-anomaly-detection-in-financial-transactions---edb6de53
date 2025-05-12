@@ -77,8 +77,5 @@ cd anomaly-detection-financial-transactions
 pip install -r requirements.txt
 ---
 
-### 🚀 Usage
-bash
-Copy
-Edit
+### 🚀Usage
 streamlit run app/app.py
