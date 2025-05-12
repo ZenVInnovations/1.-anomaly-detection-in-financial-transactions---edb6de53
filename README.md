@@ -47,7 +47,7 @@ anomaly-detection-financial-transactions/
 🛠️ Installation & Usage
 🔧 Setup Instructions (Locally)
  1. Clone this repository
-    git clone https://github.com/yourusername/anomaly-detection-financial-transactions.git
+    git clone https://github.com/Anushaa244/anomaly-detection-financial-transactions.git
     cd anomaly-detection-financial-transactions
 2.Install required libraries
    pip install -r requirements.txt
