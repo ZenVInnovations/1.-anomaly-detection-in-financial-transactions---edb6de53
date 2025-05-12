@@ -26,13 +26,13 @@ This project applies AI-driven anomaly detection techniques to identify unusual 
 ## 📁 Folder Structure
 
 anomaly-detection-financial-transactions/
-│
-├── app.py # Main Streamlit application
-├── transactions.csv # Sample financial transaction dataset
-├── requirements.txt # Python dependencies
-├── test_model.py # Test script to validate anomaly detection
-├── drawio-flowchart.png # Flowchart of project pipeline 
-├── README.md # Project documentation 
+``│``
+``├── app.py # Main Streamlit application``
+``├── transactions.csv # Sample financial transaction dataset``
+``├── requirements.txt # Python dependencies``
+``├── test_model.py # Test script to validate anomaly detection``
+``├── drawio-flowchart.png # Flowchart of project pipeline`` 
+``├── README.md # Project documentation`` 
 
 ---
 
