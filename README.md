@@ -41,4 +41,43 @@ The goal of this project is to build a robust anomaly detection system for finan
 ---
 
 ## 🧠 Architecture
+Data (CSV/API)
+↓
+Preprocessing (scaling, filtering)
+↓
+Model Training (IF / Autoencoder)
+↓
+Anomaly Detection
+↓
+Visualization & Report (Streamlit UI)
+↓
+Deployment (Streamlit Cloud)
 
+
+---
+
+## 🗺️ Flowchart
+
+![Flowchart](flowchart.png)
+
+---
+
+## 🌐 Demo
+
+▶️ Live App: [https://your-streamlit-app-link](https://your-streamlit-app-link)  
+📂 GitHub Repo: [https://github.com/your-username/anomaly-detection](https://github.com/your-username/anomaly-detection)
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/your-username/anomaly-detection
+cd anomaly-detection-financial-transactions
+pip install -r requirements.txt
+
+### 🚀 Usage
+bash
+Copy
+Edit
+streamlit run app/app.py
