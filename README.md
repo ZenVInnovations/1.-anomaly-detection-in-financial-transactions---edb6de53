@@ -1,81 +1,82 @@
-# 💳 Anomaly Detection in Financial Transactions
+# 💸 Anomaly Detection in Financial Transactions
 
-This project implements an AI-based system to detect anomalous or fraudulent transactions in financial data using **Isolation Forest** and **Autoencoders**. It includes a full ML pipeline: preprocessing, training, evaluation, visualization, and deployment via **Streamlit Cloud**.
-
----
-
-## 📌 Table of Contents
-- [Overview](#overview)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Flowchart](#flowchart)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Folder Structure](#folder-structure)
-- [Contributors](#contributors)
+This project applies AI-driven anomaly detection techniques to identify unusual patterns in financial transaction data. It uses machine learning models such as Isolation Forest to flag potential fraudulent activities or errors, ensuring data integrity and security.
 
 ---
 
-## ✅ Overview
+## 🚀 Project Overview
 
-The goal of this project is to build a robust anomaly detection system for financial transactions, capable of:
-- Detecting fraud or data errors in transaction records.
-- Using both classical (Isolation Forest) and deep learning (Autoencoder) models.
-- Visualizing results in a user-friendly dashboard.
+- 📊 **Goal**: Detect anomalies or suspicious behavior in financial datasets.
+- 🤖 **ML Models Used**: Isolation Forest (can be extended to Autoencoders).
+- 🎯 **Use Case**: Useful for banks, financial institutions, and auditors.
 
 ---
 
 ## 🧰 Tech Stack
 
-| Technology        | Purpose                         |
-|-------------------|----------------------------------|
-| Python            | Programming Language             |
-| Pandas, Numpy     | Data Manipulation                |
-| Scikit-learn      | Machine Learning (Isolation Forest) |
-| TensorFlow/Keras  | Deep Learning (Autoencoder)      |
-| Matplotlib, Seaborn | Visualization                  |
-| Streamlit         | App UI and Deployment            |
+| Category       | Tools / Libraries                             |
+|----------------|-----------------------------------------------|
+| Programming    | Python 3.x                                    |
+| Libraries      | Pandas, NumPy, Scikit-learn, Streamlit        |
+| Visualization  | Streamlit                                     |
+| Deployment     | Streamlit Cloud                               |
 
 ---
 
-## 🧠 Architecture
-Data (CSV/API)
-↓
-Preprocessing (scaling, filtering)
-↓
-Model Training (IF / Autoencoder)
-↓
-Anomaly Detection
-↓
-Visualization & Report (Streamlit UI)
-↓
-Deployment (Streamlit Cloud)
+## 📁 Folder Structure
 
+anomaly-detection-financial-transactions/
+│
+├── app.py # Main Streamlit application
+├── transactions.csv # Sample financial transaction dataset
+├── requirements.txt # Python dependencies
+├── test_model.py # Test script to validate anomaly detection
+├── drawio-flowchart.png # Flowchart of project pipeline 
+├── README.md # Project documentation 
 
 ---
 
-## 🗺️ Flowchart
+## ⚙️ How It Works
 
-![Flowchart](flowchart.png)
+1. 📥 **Load transaction data** (CSV format).
+2. 🧹 **Preprocess data**: handle missing values, select features.
+3. 🌲 **Apply Isolation Forest** to detect anomalies.
+4. 🔍 **Label transactions** as normal or anomalous.
+5. 📊 **Visualize results** in a Streamlit app.
+
+🛠️ Installation & Usage
+🔧 Setup Instructions (Locally)
+ 1. Clone this repository
+    git clone https://github.com/yourusername/anomaly-detection-financial-transactions.git
+    cd anomaly-detection-financial-transactions
+2.Install required libraries
+   pip install -r requirements.txt
+3. Run Streamlit app
+   streamlit run app.py
 
 ---
 
-## 🌐 Demo
+☁️ Deploy on Streamlit Cloud
+1.Push this repository to GitHub.
 
-▶️ Live App: [https://your-streamlit-app-link](https://your-streamlit-app-link)  
-📂 GitHub Repo: [https://github.com/your-username/anomaly-detection](https://github.com/your-username/anomaly-detection)
+2.Go to: https://streamlit.io/cloud
 
----
+3.Sign in → Deploy a new app → Connect your GitHub repo.
 
-## 🛠️ Installation
+4.Select app.py as the entry point.
 
-```bash
-git clone https://github.com/your-username/anomaly-detection
-cd anomaly-detection-financial-transactions
-pip install -r requirements.txt
----
+5.Done! You’ll receive a live URL.
 
-### 🚀Usage
-streamlit run app/app.py
+📌 Future Improvements
+ * Add deep learning model: Autoencoder
+
+ * Include time-based anomaly tracking
+
+ * Improve UI with more charts & filters
+
+ * Add database support (e.g., MongoDB, PostgreSQL)
+
+
+
+
+
