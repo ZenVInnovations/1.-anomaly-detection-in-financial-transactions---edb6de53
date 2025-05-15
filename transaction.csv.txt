@@ -1,9 +1,0 @@
-TransactionID,Amount,Location
-1,100,New York
-2,5000,New York
-3,200,London
-4,7000,Mumbai
-5,150,Delhi
-6,8000,Tokyo
-7,120,Paris
-8,6000,London
