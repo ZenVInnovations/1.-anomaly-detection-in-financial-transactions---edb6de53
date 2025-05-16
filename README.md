@@ -47,7 +47,7 @@ anomaly-detection-financial-transactions/
 🛠️ Installation & Usage
 🔧 Setup Instructions (Locally)
  1. Clone this repository
-    git clone https://github.com/Anushaa244/anomaly-detection-financial-transactions.git
+    git clone https://github.com/Anushaa244/1.-anomaly-detection-in-financial-transactions---edb6de53
     cd anomaly-detection-financial-transactions
 2.Install required libraries
    pip install -r requirements.txt
@@ -65,7 +65,8 @@ anomaly-detection-financial-transactions/
 
 4.Select app.py as the entry point.
 
-5.Done! You’ll receive a live URL.
+5.Done! we receive a live URL.
+https://1-anomaly-detection-in-financial-transactions---edb6de53-cqmao.streamlit.app/
 
 📌 Future Improvements
  * Add deep learning model: Autoencoder
@@ -76,6 +77,9 @@ anomaly-detection-financial-transactions/
 
  * Add database support (e.g., MongoDB, PostgreSQL)
 
+## Contributors
+
+- Anusha SA  
 
 
 
